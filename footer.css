@@ -68,14 +68,8 @@ footer{
   gap: 5px;
   width: 100%;
   
-  &:hover{
-
-    .creator{
-
-      img{
-        scale: 1.2;
-        opacity: .9
-      }
-    }
+  & img:hover{
+    scale: 1.2;
+    opacity: .9;
   }
 }
