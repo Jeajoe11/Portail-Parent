@@ -56,7 +56,7 @@ footer{
       user-select: none;
       transition: scale 0.3s ease, opacity 0.3s ease;
     }
-    &:hover img{
+    & .creatorA:hover ~ img{
       scale: 1.2;
       opacity: .9;
     }
