@@ -33,7 +33,6 @@ footer{
     text-decoration: none;
     position: relative;
     isolation: isolate;
-    z-index: 2;
     pointer-events: visible;
     display: inline-block;
 
@@ -73,4 +72,8 @@ footer{
   width: 100%;
   align-items: center;
   justify-content: center;
+
+  p{
+    z-index: 3;
+  }
 }
