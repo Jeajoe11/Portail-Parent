@@ -1,7 +1,9 @@
-let myUser = window.prompt("Enter Your Name");
+let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
 if(myUser == ""){
-  myUser = window.prompt("Enter Your Name");
+  myUser = window.prompt("Entrez votre nom");
+  myName.textContent = "[ANONYME]";
+  myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom")
 }
 else if(myUser == "Master"){
   myName.textContent = "Joël";
