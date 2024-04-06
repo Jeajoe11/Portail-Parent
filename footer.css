@@ -65,6 +65,7 @@ footer{
   isolation: isolate;
   display: flex;
   gap: 5px;
+  z-index: 10;
 }
 .creator__row{
   display: flex;
@@ -72,8 +73,4 @@ footer{
   width: 100%;
   align-items: center;
   justify-content: center;
-
-  p{
-    z-index: 3;
-  }
 }
