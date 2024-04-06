@@ -70,7 +70,7 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.creatorA:hover .creatorPhoto{
-    scale: 1.2;
-    opacity: .9;
-  }
+.creatorA:hover ~ .creatorPhoto{
+  scale: 1.2;
+  opacity: .9;
+}
