@@ -22,7 +22,7 @@ else if(myUser == "Bradley"){
   myName.setAttribute("title", myUser)
 }
 else if(myUser == "Maroun"){
-  myName.textContent = 'Dumbass';
+  myName.textContent = 'Bradley FanBoy';
   myName.setAttribute("title", myUser)
 }
 else{
