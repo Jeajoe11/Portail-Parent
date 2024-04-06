@@ -36,7 +36,7 @@ footer{
     z-index: -1;
     pointer-events: visible;
 
-    img{
+    .creatorPhoto{
       position: absolute;
       height: 50px;
       aspect-ratio: 3/1;
@@ -55,7 +55,7 @@ footer{
       user-select: none;
       transition: scale 0.3s ease, opacity 0.3s ease;
     }
-    &:hover img{
+    &:hover > .creatorPhoto{
       scale: 1.2;
       opacity: .9;
     }
