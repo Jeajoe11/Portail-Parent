@@ -70,7 +70,7 @@ footer{
   align-items: center;
   justify-content: center;
   
-  & img:hover{
+  & a:hover img{
     scale: 1.2;
     opacity: .9;
   }
