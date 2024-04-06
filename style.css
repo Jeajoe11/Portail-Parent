@@ -1,0 +1,135 @@
+@import url("/main.css");
+
+.top-logo{
+  background-color: #79b6ef;
+  height: 100px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  margin-block: 40px 5px;
+  transition: scale 0.3s ease;
+  
+  &:hover{
+    scale: 1.06;
+    
+    &::after{
+    color: #181881;
+    font-size: 1.05em;
+    font-weight: 700;
+    }
+  }
+  
+
+  &::after{
+    content: "Portail-Élève";
+    position: absolute;
+    top: -25px;
+    color: #121;
+    font-weight: 500;
+    width: 120px;
+    text-align: center;
+    transition: color 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
+  }
+  & img{
+    height: 75px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+.wrapper{
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  height: clamp(330px, 700px, 990px);
+  scale: 0.75;
+  position: relative;
+  top: -40px;
+}
+.card{
+  height: clamp(275px, 540px, 550px);
+  width: clamp(175px, 350px, 350px);
+  position: relative;
+  overflow: clip;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  transition: animation 0.3s ease, scale 0.3s ease;
+  user-select: none;
+
+  &:hover{
+    animation-play-state: paused;
+  }
+  &:nth-child(1){
+    animation: scale 3s ease 1.5s infinite;
+  }
+  &:nth-child(2){
+    animation: scale 3s ease 2.5s infinite;
+  }
+  &:nth-child(3){
+    animation: scale 3s ease 3.5s infinite;
+  }
+  & img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-block: 20px 10px;
+    user-select: none;
+    pointer-events: none;
+  }
+  & ul{
+    padding-inline: 30px 0;
+    text-align: left;
+  }
+  & h2{
+    color: #490D41;
+  }
+}
+.card:hover{
+  animation-play-state: paused;
+}
+.text{
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  width:80%;
+  font-size: clamp(15px, 1vw, 30px);
+  text-wrap: balance;
+}
+.lowres{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-style: italic;
+
+  &.three{
+  background-image: url("/images/lowres/flyd-mT7lXZPjk7U-unsplash-lowres.jpg");
+  }
+  &.two{
+  background-image: url("/images/lowres/pexels-tima-miroshnichenko-5303515-lowres.jpg");
+  }
+  &.one{
+  background-image: url("/images/lowres/pexels-max-fischer-5211428-lowres.jpg");
+  }
+}
+@keyframes scale{
+  50%{
+    scale: 1.05
+  }
+  100%{
+    scale: 1
+  }
+}

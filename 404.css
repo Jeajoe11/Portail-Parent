@@ -1,0 +1,29 @@
+@import url("/main.css");
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: clamp(100px, 10dvw, 300px);
+  user-select: none;
+  pointer-events: none;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &::after{
+    content: "Page is not Available!";
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    bottom: -40px;
+    font-size: clamp(50px, 5dvw, 150px);
+    margin: auto;
+    text-align: center;
+    width: 100%
+  }
+}
