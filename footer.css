@@ -69,9 +69,8 @@ footer{
   width: 100%;
   align-items: center;
   justify-content: center;
-  
-  & .creatorA:hover .creatorPhoto{
+}
+.creatorA:hover .creatorPhoto{
     scale: 1.2;
     opacity: .9;
   }
-}
