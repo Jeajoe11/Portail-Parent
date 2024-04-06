@@ -67,6 +67,8 @@ footer{
   display: flex;
   gap: 5px;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   
   & img:hover{
     scale: 1.2;
