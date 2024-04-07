@@ -29,7 +29,7 @@ else{
   myName.textContent = myUser;
   myName.setAttribute("title", myUser);
 };
-if(myName.textContent = ""){
+if(myName.textContent == ""){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom")
