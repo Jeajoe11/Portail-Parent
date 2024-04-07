@@ -5,7 +5,7 @@ if(myUser == ""){
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom")
 }
-else if(myUser == "Master"){
+else if(myUser == "Créateur"){
   myName.textContent = "Joël";
   myName.setAttribute("title", myUser)
 }
