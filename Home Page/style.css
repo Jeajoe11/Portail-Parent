@@ -54,9 +54,10 @@ header{
   text-transform: capitalize;
   width: fit-content;
   display: -webkit-box;
-  overflow-x: clip;
+  overflow: clip;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  overflow-clip-margin: 10px;
 
   > *{
     text-transform: capitalize;
