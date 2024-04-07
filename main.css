@@ -120,7 +120,7 @@ footer a.top__jump{
   }
   &:active{
     box-shadow: 0 -5px 30px white;
-    background-color: #61618f;
+    background-color: #98c1b1;
     color: white;
   }
 }
