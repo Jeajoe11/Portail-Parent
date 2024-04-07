@@ -115,7 +115,7 @@ footer a.top__jump{
   color: white;
 
   &:hover{
-    background-color: white;
+    background-color: #859876;
     color: #10253c;
   }
   &:active{
