@@ -4,8 +4,13 @@
     --header-height: 15vh;
 }
 .logo__container{
-    width: 35%;
+    width: fit-content;
     height: 100%;
+
+    a{
+        cursor: default;
+        height: 100%;
+      }
 }
 .logo{
     height: 100%;
