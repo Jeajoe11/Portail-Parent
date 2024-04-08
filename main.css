@@ -158,6 +158,10 @@ header{
   position: relative;
   width: 35%;
   user-select: none;
+  
+  a{
+    cursor: default;
+  }
 }
 .logo{
   background-image: url("/images/logos/Nouveau_logo-CECCE_jpg.jpg");
