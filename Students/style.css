@@ -18,3 +18,7 @@
 .logo{
     height: 100%;
 }
+.Students__Row{
+    display: flex;
+    width: 60%;
+}
