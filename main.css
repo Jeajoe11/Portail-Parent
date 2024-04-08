@@ -23,6 +23,7 @@ body{
   color: #112A46;
   font-family:  "Poppins", "Fjalla", "Fugaz One", "Space Grotesk", Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
+  letter-spacing: .01785714em;
 }
 .container{
   display: flex;
