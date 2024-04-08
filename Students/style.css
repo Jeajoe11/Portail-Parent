@@ -3,3 +3,10 @@
 :root{
     --header-height: 15vh;
 }
+.logo__container{
+    width: 35%;
+    height: 100%;
+}
+.logo{
+    height: 100%;
+}
