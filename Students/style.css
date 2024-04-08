@@ -3,6 +3,9 @@
 :root{
     --header-height: 15vh;
 }
+.container{
+    padding-block-start: var(--header-height);
+}
 .logo__container{
     width: fit-content;
     height: 100%;
