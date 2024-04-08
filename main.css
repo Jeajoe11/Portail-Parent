@@ -5,6 +5,7 @@
 }
 :root{
   --footer-height: 200px;
+  --header-height: 25vh;
   --top__jump-height: 30px;
 }
 html,
@@ -126,9 +127,6 @@ footer a.top__jump{
 }
 body{
   position: relative;
-}
-:root{
-  --header-height: 25vh;
 }
 .container{
   background-color: transparent;

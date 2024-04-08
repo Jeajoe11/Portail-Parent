@@ -1,2 +1,5 @@
 @import url("/Portail-Parent/main.css");
 @import url("/Portail-Parent/Students/main.css");
+:root{
+    --header-height: 15vh;
+}
