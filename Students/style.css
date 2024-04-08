@@ -21,4 +21,6 @@
 .Students__Row{
     display: flex;
     width: 60%;
+    height: 300px;
+    background-color: #fff;
 }
