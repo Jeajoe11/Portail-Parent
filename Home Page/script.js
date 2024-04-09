@@ -39,7 +39,7 @@ else if(myUser === "/rizz-man"){
 }
 else if(myUser === "GAY JOEL"){
   myName.textContent = `GAY DJUMI`;
-  myName.setAttribute("title", myUser)
+  myName.setAttribute("title", `DJUMI IS GAY!`)
 }
 else{
   myName.textContent = myUser;
