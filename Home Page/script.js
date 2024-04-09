@@ -29,6 +29,10 @@ else if(myUser === "Ahmed"){
   myName.textContent = `Ramadan`;
   myName.setAttribute("title", myUser)
 }
+else if(myUser === "/smile-man"){
+  myName.textContent = `😁`;
+  myName.setAttribute("title", myUser)
+}
 else{
   myName.textContent = myUser;
   myName.setAttribute("title", myUser);
