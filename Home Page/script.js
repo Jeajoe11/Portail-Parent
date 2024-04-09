@@ -26,11 +26,7 @@ else if(myUser === "Maroun"){
   myName.setAttribute("title", myUser)
 }
 else if(myUser === "Ahmed"){
-  myName.textContent = `Can't eat syndrome`;
-  myName.setAttribute("title", myUser)
-}
-else if(myUser === "Noah A"){
-  myName.textContent = `White Man`;
+  myName.textContent = `Ramadan`;
   myName.setAttribute("title", myUser)
 }
 else{
