@@ -1,27 +1,27 @@
 let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
-if(myUser == ""){
+while(myUser === ""){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom")
 }
-else if(myUser == "Créateur"){
+if(myUser === "Créateur"){
   myName.textContent = "Joël";
   myName.setAttribute("title", myUser)
 }
-else if(myUser == "Joël"){
+else if(myUser === "Joël"){
   myName.textContent = "Master";
   myName.setAttribute("title", myUser)
 }
-else if(myUser == "Djumi"){
+else if(myUser === "Djumi"){
   myName.textContent = 'Him';
   myName.setAttribute("title", myUser)
 }
-else if(myUser == "Bradley"){
+else if(myUser === "Bradley"){
   myName.textContent = 'Him';
   myName.setAttribute("title", myUser)
 }
-else if(myUser == "Maroun"){
+else if(myUser === "Maroun"){
   myName.textContent = 'Main Man';
   myName.setAttribute("title", myUser)
 }
