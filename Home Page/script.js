@@ -10,7 +10,7 @@ if(myUser === "Créateur"){
   myName.setAttribute("title", myUser)
 }
 else if(myUser === "Joël"){
-  myName.textContent = "Master";
+  myName.textContent = "Créateur";
   myName.setAttribute("title", myUser)
 }
 else if(myUser === "Djumi"){
