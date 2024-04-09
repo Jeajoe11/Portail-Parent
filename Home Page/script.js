@@ -1,10 +1,10 @@
 let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
-do{
+while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom")
-}while(myUser === "" || myUser === null);
+}
 if(myUser === "Créateur"){
   myName.textContent = "Joël";
   myName.setAttribute("title", myUser)
