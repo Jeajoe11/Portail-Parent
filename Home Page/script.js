@@ -9,7 +9,7 @@ if(myUser === "Créateur"){
   myName.textContent = "Joël";
   myName.setAttribute("title", myUser)
 }
-else if(myUser === "Joël"){
+else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser === "joel"){
   myName.textContent = "Créateur";
   myName.setAttribute("title", myUser)
 }
