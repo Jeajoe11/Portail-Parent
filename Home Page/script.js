@@ -37,7 +37,7 @@ else if(myUser === "/rizz-man"){
   myName.textContent = `😉`;
   myName.setAttribute("title", myUser)
 }
-if(myUser === "GAY JOEL"){
+else if(myUser === "GAY JOEL"){
   myName.textContent = `GAY DJUMI`;
   myName.setAttribute("title", myUser)
 }
