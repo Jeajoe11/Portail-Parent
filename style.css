@@ -34,7 +34,7 @@
     transition: color 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
   }
   & img{
-    height: 75px;
+    height: 90%;
     aspect-ratio: 1;
     object-fit: cover;
     user-select: none;
