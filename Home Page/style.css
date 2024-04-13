@@ -38,6 +38,7 @@ header{
 
   a{
     cursor: default;
+    height: 78%;
   }
 }
 .logo{
@@ -109,7 +110,7 @@ header{
     border-radius: 10px;
     background-color: white;
     aspect-ratio: 1;
-    height: 62px;
+    height: 4.539vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
