@@ -36,7 +36,7 @@ footer{
     pointer-events: visible;
     display: inline-block;
 
-    img{
+    img.creatorPhoto{
       position: absolute;
       height: 50px;
       aspect-ratio: 3/1;
