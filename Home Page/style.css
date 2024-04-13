@@ -9,18 +9,16 @@ body{
 .container{
   padding-block-start: var(--header-height);
   background-color: transparent;
-  backdrop-filter: blur(20px);
-
-  
+  backdrop-filter: blur(20px);  
 }
 .container2{
     position: absolute;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 header{
   padding-block-start: 10px;
   padding-block-end: 10px;
