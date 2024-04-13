@@ -24,6 +24,16 @@ body{
   font-family:  "Poppins", "Fjalla", "Fugaz One", "Space Grotesk", Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
   letter-spacing: .01785714em;
+  transition: animation 0.3s ease, translate 0.3s ease;
+  animation: fade-in 0.3s ease;
+}
+@keyframes fade-in{
+  0%{
+    translate: -10px 0;
+  }
+  100%{
+    translate: 0 0;
+  }
 }
 .container{
   display: flex;
