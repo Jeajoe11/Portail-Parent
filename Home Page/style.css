@@ -11,7 +11,9 @@ body{
   background-color: transparent;
   backdrop-filter: blur(20px);
 
-  &.container2{
+  
+}
+.container2{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -19,7 +21,6 @@ body{
     justify-content: center;
     align-items: center;
   }
-}
 header{
   padding-block-start: 10px;
   padding-block-end: 10px;
