@@ -36,7 +36,15 @@ footer{
     pointer-events: visible;
     display: inline-block;
 
-    img.creatorPhoto{
+    
+    }
+    & span.creatorA:hover ~ .creatorPhoto{
+      scale: 1.2;
+      opacity: .9;
+    }
+  }
+}
+img.creatorPhoto{
       position: absolute;
       height: 50px;
       aspect-ratio: 3/1;
@@ -54,13 +62,6 @@ footer{
       pointer-events: none;
       user-select: none;
       transition: scale 0.3s ease, opacity 0.3s ease;
-    }
-    & span.creatorA:hover ~ .creatorPhoto{
-      scale: 1.2;
-      opacity: .9;
-    }
-  }
-}
 .copyright{
   isolation: isolate;
   display: flex;
