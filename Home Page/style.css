@@ -216,7 +216,7 @@ header{
   object-fit: cover;
 
   img{
-    height: 100%
+    width: 100%
   }
 }
 .exitBtn__two{
