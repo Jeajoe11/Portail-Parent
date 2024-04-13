@@ -35,15 +35,14 @@ footer{
     isolation: isolate;
     pointer-events: visible;
     display: inline-block;
-
-    
-    }
-    & span.creatorA:hover ~ .creatorPhoto{
+  }
+  & span.creatorA:hover ~ .creatorPhoto{
       scale: 1.2;
       opacity: .9;
-    }
   }
+
 }
+
 img.creatorPhoto{
       position: absolute;
       height: 50px;
@@ -62,16 +61,17 @@ img.creatorPhoto{
       pointer-events: none;
       user-select: none;
       transition: scale 0.3s ease, opacity 0.3s ease;
-.copyright{
-  isolation: isolate;
-  display: flex;
-  gap: 5px;
-  z-index: 10;
-}
-.creator__row{
-  display: flex;
-  gap: 5px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  .copyright{
+    isolation: isolate;
+    display: flex;
+    gap: 5px;
+    z-index: 10;
+  }
+  .creator__row{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
