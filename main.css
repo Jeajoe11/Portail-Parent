@@ -29,10 +29,12 @@ body{
 }
 @keyframes fade-in{
   0%{
-    translate: -10px 0;
+    translate: 0 -10px;
+    opacity: 0;
   }
   100%{
     translate: 0 0;
+    opacity: 1;
   }
 }
 .container{
