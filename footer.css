@@ -39,7 +39,7 @@ footer{
 }
 span.creatorA:hover ~ .creatorPhoto{
   scale: 1.2;
-  opacity: .9;
+  opacity: .8;
 }
 img.creatorPhoto{
   position: absolute;
