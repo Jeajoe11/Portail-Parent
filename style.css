@@ -79,7 +79,7 @@
     animation: scale 3s ease 2.5s infinite, fade-in 0.3s ease forwards;
   }
   &:nth-child(3){
-    animation: scale 3s ease 3.5s infinite;
+    animation: scale 3s ease 3.5s infinite, fade-in 0.3s ease forwards;
   }
   & img{
     width: 100%;
