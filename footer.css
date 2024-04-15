@@ -4,6 +4,7 @@ html,
 body {
   height: fit-content;
 }
+
 footer{
   --top__jump-height: 30px;
   position: relative;
@@ -23,11 +24,13 @@ footer{
     color: white;
   }
 }
+
 .creatorA{
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
 }
+
 .creator{
   font-weight: 800;
   text-transform: uppercase;
@@ -37,10 +40,12 @@ footer{
   pointer-events: visible;
   display: inline-block;
 }
+
 span.creatorA:hover ~ .creatorPhoto{
   scale: 1.2;
   opacity: .8;
 }
+
 img.creatorPhoto{
   position: absolute;
   height: 50px;
@@ -60,12 +65,14 @@ img.creatorPhoto{
   user-select: none;
   transition: scale 0.3s ease, opacity 0.3s ease;
 }
+
 .copyright{
   isolation: isolate;
   display: flex;
   gap: 5px;
   z-index: 10;
 }
+
 .creator__row{
   display: flex;
   gap: 5px;
