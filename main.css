@@ -26,7 +26,6 @@ body{
   letter-spacing: .01785714em;
   transition: animation 0.3s ease, translate 0.3s ease;
   animation: fade-in 0.3s ease forwards;
-  opacity: 0;
 }
 @keyframes fade-in{
   0%{
