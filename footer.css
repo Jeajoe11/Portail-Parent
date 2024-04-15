@@ -22,56 +22,56 @@ footer{
   *{
     color: white;
   }
-  .creatorA{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-  .creator{
-    font-weight: 800;
-    text-transform: uppercase;
-    text-decoration: none;
-    position: relative;
-    isolation: isolate;
-    pointer-events: visible;
-    display: inline-block;
-  }
-  & span.creatorA:hover ~ .creatorPhoto{
-      scale: 1.2;
-      opacity: .9;
-  }
+  
 
 }
-
+.creatorA{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.creator{
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  isolation: isolate;
+  pointer-events: visible;
+  display: inline-block;
+}
+span.creatorA:hover ~ .creatorPhoto{
+    scale: 1.2;
+    opacity: .9;
+}
 img.creatorPhoto{
-      position: absolute;
-      height: 50px;
-      aspect-ratio: 3/1;
-      object-fit: cover;
-      object-position: center -20px;
-      top: 50%;
-      z-index: -1;
-      left: 50%;
-      translate: -50% -50%;
-      border-radius: 200px;
-      transform-origin: center;
-      filter: blur(4px);
-      box-shadow: 0 0 20px #112A46;
-      opacity: 0;
-      pointer-events: none;
-      user-select: none;
-      transition: scale 0.3s ease, opacity 0.3s ease;
-  .copyright{
-    isolation: isolate;
-    display: flex;
-    gap: 5px;
-    z-index: 10;
-  }
+  position: absolute;
+  height: 50px;
+  aspect-ratio: 3/1;
+  object-fit: cover;
+  object-position: center -20px;
+  top: 50%;
+  z-index: -1;
+  left: 50%;
+  translate: -50% -50%;
+  border-radius: 200px;
+  transform-origin: center;
+  filter: blur(4px);
+  box-shadow: 0 0 20px #112A46;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  transition: scale 0.3s ease, opacity 0.3s ease;
+}
+.copyright{
+  isolation: isolate;
+  display: flex;
+  gap: 5px;
+  z-index: 10;
+}
   .creator__row{
-    display: flex;
-    gap: 5px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
