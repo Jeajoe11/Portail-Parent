@@ -38,8 +38,8 @@ footer{
   display: inline-block;
 }
 span.creatorA:hover ~ .creatorPhoto{
-    scale: 1.2;
-    opacity: .9;
+  scale: 1.2;
+  opacity: .9;
 }
 img.creatorPhoto{
   position: absolute;
