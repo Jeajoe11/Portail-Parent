@@ -79,7 +79,7 @@ footer{
     font-weight: 600;
     isolation: isolate;
     position: relative;
-    transition: font-weight 0.3s ease, font-size 0.3s ease;
+    transition: font-weight 0.3s ease, font-size 0.3s ease, scale 0.3s ease, opacity 0.3s ease;
 
     .footer__bg-circle{
       --width-height-value: 240px;
@@ -111,7 +111,7 @@ footer{
   }
 } 
 .footer__links:hover a:hover{
-  scale: 1.;
+  scale: 1.5;
 
   .footer__bg-circle{
     opacity: 1;
