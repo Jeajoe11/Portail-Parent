@@ -26,7 +26,7 @@ body{
   scroll-behavior: smooth;
   letter-spacing: .01785714em;
   transition: animation 0.3s ease, translate 0.3s ease;
-  animation: fade-in 0.3s ease forwards;
+  animation: fade-in 0.3s;
 }
 @keyframes fade-in{
   0%{
@@ -81,15 +81,6 @@ footer{
     position: relative;
     transition: font-weight 0.3s ease, font-size 0.3s ease;
 
-    &:hover{
-      font-weight: 800;
-      font-size: 1.3vw;
-
-      .footer__bg-circle{
-        scale: .25;
-        opacity: .5;
-      }
-    }
     .footer__bg-circle{
       --width-height-value: 240px;
       width: var(--width-height-value);
@@ -112,6 +103,13 @@ footer{
     }
   }
 }
+.footer__links:hover a:not(:hover){
+  scale: .75;
+
+  .footer__bg-circle{
+    opacity: 1;
+  }
+} 
 footer a.top__jump{
   width: 100%;
   text-align: center;
