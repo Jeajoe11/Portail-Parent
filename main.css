@@ -68,7 +68,7 @@ footer{
   justify-content: center;
   margin-block-start: 1.5rem;
   position: absolute;
-  height: 40px;
+  height: min-content;
   top: 5px;
   width: 100%;
   z-index: 1;
@@ -103,7 +103,7 @@ footer{
     }
   }
 }
-.footer__links a:hover a:not(:hover){
+.footer__links:hover a:not(:hover){
   scale: .9;
 
   .footer__bg-circle{
