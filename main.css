@@ -25,7 +25,7 @@ body{
   font-family:  "Poppins", "Fjalla", "Fugaz One", "Space Grotesk", Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
   letter-spacing: .01785714em;
-  transition: animation 0.3s ease, translate 0.3s ease;
+  transition: animation 0.3s ease, translate 0.3s ease, opacity 0.3s ease;
   animation: fade-in 0.3s;
 }
 @keyframes fade-in{
