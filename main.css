@@ -70,6 +70,8 @@ footer{
   position: absolute;
   height: min-content;
   top: 5px;
+  left: 50%;
+  translate: -50% 0;
   width: 100%;
   z-index: 1;
   
