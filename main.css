@@ -108,6 +108,7 @@ footer{
 
   .footer__bg-circle{
     opacity: 0;
+    
   }
 } 
 .footer__links a:hover a:hover{
@@ -115,6 +116,7 @@ footer{
 
   .footer__bg-circle{
     opacity: 1;
+    scale: 1.5;
   }
 } 
 footer a.top__jump{
