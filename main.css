@@ -104,14 +104,14 @@ footer{
   }
 }
 .footer__links:hover a:not(:hover){
-  scale: .75;
+  scale: .9;
 
   .footer__bg-circle{
     opacity: 0;
   }
 } 
 .footer__links:hover a:hover{
-  scale: 1.5;
+  scale: 1.25;
 
   .footer__bg-circle{
     opacity: 1;
