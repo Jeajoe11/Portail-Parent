@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: calc(var(--header-z-index) + 1)
 }
 header{
   padding-block-start: 10px;
