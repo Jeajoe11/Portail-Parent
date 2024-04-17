@@ -107,6 +107,13 @@ footer{
   scale: .75;
 
   .footer__bg-circle{
+    opacity: 0;
+  }
+} 
+.footer__links:hover a:hover{
+  scale: 1.;
+
+  .footer__bg-circle{
     opacity: 1;
   }
 } 
