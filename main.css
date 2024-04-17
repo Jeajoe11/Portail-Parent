@@ -110,7 +110,7 @@ footer{
     opacity: 0;
   }
 } 
-.footer__links a:hover a:hover{
+.footer__links:hover a:hover{
   scale: 1.25;
 
   .footer__bg-circle{
