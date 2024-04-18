@@ -84,7 +84,7 @@ else if(myUser === "/rizz-man"){
   myName2.textContent = `😉`;
   myName2.setAttribute("title", myUser);
 
-  Container2.setAttribute("data-inserted",)
+  Container2.setAttribute("data-inserted", "")
 }
 else if(myUser === "GAY JOEL"){
   myName.textContent = `GAY DJUMI`;
@@ -93,7 +93,7 @@ else if(myUser === "GAY JOEL"){
   myName2.textContent = `GAY DJUMI`;
   myName2.setAttribute("title", `DJUMI IS GAY`);
 
-  Container2.setAttribute("data-inserted",)
+  Container2.setAttribute("data-inserted", "")
 }
 else{
   myName.textContent = myUser;
