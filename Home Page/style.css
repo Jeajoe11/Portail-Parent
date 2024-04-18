@@ -20,7 +20,7 @@ body{
     align-items: center;
     z-index: calc(var(--header-z-index) + 1);
     background-color: #fff;
-    animation: fade-out 2s ease forwards;
+    animation: fade-out 1.5s ease forwards;
 
     img{
       height: 50px;
