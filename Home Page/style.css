@@ -11,6 +11,9 @@ body{
   background-color: transparent;
   backdrop-filter: blur(20px);  
 }
+.container *, footer{
+  transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
+}
 .container2{
     position: absolute;
     height: 100dvh;
