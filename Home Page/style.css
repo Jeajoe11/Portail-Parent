@@ -20,7 +20,6 @@ body{
     align-items: center;
     z-index: calc(var(--header-z-index) + 1);
     background-color: #fff;
-    animation: fade-out 1.5s ease forwards;
 
     img{
       height: 50px;
@@ -31,9 +30,12 @@ body{
         position: absolute;
         width: 120px;
         height: 30px;
-        background-color: #fff;
+        background-color: #ffffff;
       }
     }
+}
+.container2[data-inserted]{
+  animation: fade-out 1.5s ease forwards;
 }
 @keyframes fade-out{
   0%{
