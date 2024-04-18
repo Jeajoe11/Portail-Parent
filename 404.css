@@ -5,6 +5,10 @@
   justify-content: center;
   align-items: center;
 }
+.container *, footer{
+  transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
+  animation: fade-in 0.5s ease;
+}
 h1{
   font-size: clamp(100px, 10dvw, 300px);
   user-select: none;
