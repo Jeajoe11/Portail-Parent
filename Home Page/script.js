@@ -7,7 +7,7 @@ while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
-  
+
   myName2.textContent = "[ANONYME]";
   myName2.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
 };
@@ -27,6 +27,8 @@ else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser 
 
   myName2.textContent = "Créateur";
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "Djumi"){
   myName.textContent = 'Him';
@@ -34,6 +36,8 @@ else if(myUser === "Djumi"){
 
   myName2.textContent = 'Him';
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "Bradley"){
   myName.textContent = 'Him';
@@ -41,6 +45,8 @@ else if(myUser === "Bradley"){
 
   myName2.textContent = 'Him';
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "Maroun"){
   myName.textContent = 'Main Man';
@@ -48,6 +54,8 @@ else if(myUser === "Maroun"){
 
   myName2.textContent = 'Main Man';
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "Ahmed"){
   myName.textContent = `My Man`;
@@ -55,6 +63,8 @@ else if(myUser === "Ahmed"){
 
   myName2.textContent = `My Man`;
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "/smile-man"){
   myName.textContent = `😁`;
@@ -62,6 +72,8 @@ else if(myUser === "/smile-man"){
 
   myName2.textContent = `😁`;
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "/rizz-man"){
   myName.textContent = `😉`;
@@ -69,6 +81,8 @@ else if(myUser === "/rizz-man"){
 
   myName2.textContent = `😉`;
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "GAY JOEL"){
   myName.textContent = `GAY DJUMI`;
@@ -76,6 +90,8 @@ else if(myUser === "GAY JOEL"){
 
   myName2.textContent = `GAY DJUMI`;
   myName2.setAttribute("title", `DJUMI IS GAY`);
+
+  Container2.setAttribute("data-inserted",)
 }
 else{
   myName.textContent = myUser;
@@ -83,4 +99,6 @@ else{
 
   myName2.textContent = myUser;
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 };
