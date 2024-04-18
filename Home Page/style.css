@@ -36,6 +36,9 @@ body{
     animation: fade-in 1.5s ease 2s;
   }
 }
+.container2:not([data-inserted]) ~ .container{
+  opacity: 0;
+}
 @keyframes fade-out{
   0%{
     opacity: 1;
