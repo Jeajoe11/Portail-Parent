@@ -2,23 +2,23 @@ let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
 const myName2 = document.getElementById("myName2");
 const Container2 = document.getElementById("Container2");
-const ExitBtn = document.querySelectorAll('#theExitBtn');
+const exitBtn = document.querySelector('#theExitBtn');
 
-ExitBtn.onclick = function() {
-  // Check if the browser supports the exit() method (modern browsers)
-  if (document.exitFullscreen) {
-      document.exitFullscreen();
-  } else if (document.webkitExitFullscreen) { // Safari
-      document.webkitExitFullscreen();
-  } else if (document.mozCancelFullScreen) { // Firefox
-      document.mozCancelFullScreen();
-  } else if (document.msExitFullscreen) { // IE/Edge
-      document.msExitFullscreen();
-  } else if (window.close) { // Close the window/tab if exitFullscreen is not supported
-      window.close();
-  } else {
-      window.alert("Fullscreen and window close not supported.");
-  }
+exitBtn.onclick = function() {
+    // Check if the browser supports the exit() method (modern browsers)
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) { // Safari
+        document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) { // Firefox
+        document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) { // IE/Edge
+        document.msExitFullscreen();
+    } else if (window.close) { // Close the window/tab if exitFullscreen is not supported
+        window.close();
+    } else {
+        console.log("Fullscreen and window close not supported.");
+    }
 };
 while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
