@@ -19,7 +19,7 @@ ExitBtn.onclick = function() {
   } else {
       window.alert("Fullscreen and window close not supported.");
   }
-});
+};
 while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
