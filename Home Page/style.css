@@ -189,16 +189,8 @@ header{
         transform-origin: center center;
       }
       &:hover{
-        filter: opacity(0.5);
-        box-shadow: 0 0 20px #9f4553;
+        box-shadow: 0 0 20px #ffffff;
 
-        & img{
-          transform: rotateY(180deg);
-
-          &.exitBtn__two{
-            transform: rotateY(360deg);
-          }
-        }
         & p, s{
           color: #391818;
         }
