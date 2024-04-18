@@ -180,7 +180,6 @@ header{
       cursor: not-allowed;
       filter:opacity(0.75);
       transition: filter 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-      backface-visibility: hidden;
 
       & p, s{
         transition: color 0.3s ease, transform 0.3s ease;
