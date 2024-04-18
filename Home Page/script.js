@@ -7,6 +7,7 @@ while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
   myName.textContent = "[ANONYME]";
   myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
+  
   myName2.textContent = "[ANONYME]";
   myName2.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
 };
