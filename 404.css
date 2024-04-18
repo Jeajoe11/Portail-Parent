@@ -18,9 +18,10 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block-end: 21px;
   
   &::after{
-    content: "Page is not Available!";
+    content: "Page non disponible";
     position: absolute;
     left: 0;
     text-transform: uppercase;
@@ -30,4 +31,7 @@ h1{
     text-align: center;
     width: 100%
   }
+}
+p a{
+  font-weight: 700;
 }
