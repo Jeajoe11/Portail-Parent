@@ -24,6 +24,9 @@ body{
 
     img{
       height: 50px;
+      margin-inline-start: 10px;
+
+      
     }
 }
 @keyframes fade-out{
