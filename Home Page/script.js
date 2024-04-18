@@ -2,7 +2,7 @@ let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
 const myName2 = document.getElementById("myName2");
 const Container2 = document.getElementById("Container2");
-const ExitBtn = document.querySelectorAll(".exitBtn");
+const ExitBtn = document.querySelectorAll("#theExitBtn");
 
 ExitBtn.onclick = function() {
   // Check if the browser supports the exit() method (modern browsers)
