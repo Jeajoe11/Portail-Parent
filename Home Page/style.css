@@ -177,7 +177,6 @@ header{
       transition: transform 0.3s ease;
     }
     &#theExitBtn{
-      filter:opacity(0.75);
       transition: filter 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 
       & p, s{
