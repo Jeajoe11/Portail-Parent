@@ -196,11 +196,10 @@ header{
         }
       }
       &:active{
-        filter: opacity(0.25);
-        box-shadow: 0 0 30px #9e4553;
+        box-shadow: 0 0 30px #fff;
 
-        & p, s{
-          color: #9f4553;
+        & p{
+          color: #ffffff;
         }
       }
       & img{
