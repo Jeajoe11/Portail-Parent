@@ -32,10 +32,10 @@ body{
     }
 }
 .container2[data-inserted]{
-  animation: fade-out 2s ease forwards;
+  animation: fade-out 2s ease 2s forwards;
 
   & ~ .container{
-    animation: fade-in .5s ease 1.5s;
+    animation: fade-in .5s ease 2s;
   }
 }
 @keyframes fade-out{
