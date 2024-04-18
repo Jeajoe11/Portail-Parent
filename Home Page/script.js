@@ -5,7 +5,7 @@ const Container2 = document.getElementById("Container2");
 const ExitBtn = document.getElementById("theExitBtn");
 
 ExitBtn.onclick = function(){
-  window.alert("Ce fonction ne fonctionne pas")
+  window.alert("Ce fonction ne fonctionne pas!")
 }
 
 while(myUser === "" || myUser === null){
