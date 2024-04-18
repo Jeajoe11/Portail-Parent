@@ -28,7 +28,7 @@ body{
 
 }
 .container2[data-inserted]{
-  animation: fade-out 1.5s ease forwards;
+  animation: fade-out 2s ease forwards;
 }
 @keyframes fade-out{
   0%{
