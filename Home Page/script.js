@@ -4,9 +4,6 @@ const myName2 = document.getElementById("myName2");
 const Container2 = document.getElementById("Container2");
 const ExitBtn = document.getElementById("theExitBtn");
 
-ExitBtn.setAttribute("disabled", "").onclick = function(){
-  window.alert("Ce fonction ne fonctionne pas!")
-}
 ExitBtn.addEventListener('click', function() {
   // Check if the browser supports the exit() method (modern browsers)
   if (document.exitFullscreen) {
