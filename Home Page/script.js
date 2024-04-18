@@ -14,7 +14,7 @@ while(myUser === "" || myUser === null){
 };
 if(!myUser === "" || myUser === null){
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "Créateur"){
   myName.textContent = "Joël";
@@ -24,7 +24,7 @@ else if(myUser === "Créateur"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser === "joel"){
   myName.textContent = "Créateur";
@@ -34,7 +34,7 @@ else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser 
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "Djumi"){
   myName.textContent = 'Him';
@@ -44,7 +44,7 @@ else if(myUser === "Djumi"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "Bradley"){
   myName.textContent = 'Him';
@@ -54,7 +54,7 @@ else if(myUser === "Bradley"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "Maroun"){
   myName.textContent = 'Main Man';
@@ -73,7 +73,7 @@ else if(myUser === "Ahmed"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "/smile-man"){
   myName.textContent = `😁`;
@@ -83,7 +83,7 @@ else if(myUser === "/smile-man"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "/rizz-man"){
   myName.textContent = `😉`;
@@ -93,7 +93,7 @@ else if(myUser === "/rizz-man"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else if(myUser === "GAY JOEL"){
   myName.textContent = `GAY DJUMI`;
@@ -103,7 +103,7 @@ else if(myUser === "GAY JOEL"){
   myName2.setAttribute("title", `DJUMI IS GAY`);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 }
 else{
   myName.textContent = myUser;
@@ -113,5 +113,5 @@ else{
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  container2Img.setAttribute("closed", "");
+  
 };
