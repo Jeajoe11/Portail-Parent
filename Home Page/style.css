@@ -35,7 +35,7 @@ body{
   animation: fade-out 2s ease forwards;
 
   & ~ .container{
-    animation: fade-in 0.5s ease 2s;
+    animation: fade-in 0.5s ease 1.5s;
   }
 }
 @keyframes fade-out{
