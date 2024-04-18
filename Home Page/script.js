@@ -18,7 +18,6 @@ while(myUser === "" || myUser === null){
 };
 if(!myUser === "" || myUser === null){
   Container2.setAttribute("data-inserted", "");
-  
 }
 else if(myUser === "Créateur"){
   myName.textContent = "Joël";
@@ -28,86 +27,6 @@ else if(myUser === "Créateur"){
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser === "joel"){
-  myName.textContent = "Créateur";
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = "Créateur";
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "Djumi"){
-  myName.textContent = 'Him';
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = 'Him';
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "Bradley"){
-  myName.textContent = 'Him';
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = 'Him';
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "Maroun"){
-  myName.textContent = 'Main Man';
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = 'Main Man';
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "")
-}
-else if(myUser === "Ahmed"){
-  myName.textContent = `My Man`;
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = `My Man`;
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "/smile-man"){
-  myName.textContent = `😁`;
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = `😁`;
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "/rizz-man"){
-  myName.textContent = `😉`;
-  myName.setAttribute("title", myUser);
-
-  myName2.textContent = `😉`;
-  myName2.setAttribute("title", myUser);
-
-  Container2.setAttribute("data-inserted", "");
-  
-}
-else if(myUser === "GAY JOEL"){
-  myName.textContent = `GAY DJUMI`;
-  myName.setAttribute("title", `DJUMI IS GAY!`);
-
-  myName2.textContent = `GAY DJUMI`;
-  myName2.setAttribute("title", `DJUMI IS GAY`);
-
-  Container2.setAttribute("data-inserted", "");
-  
 }
 else{
   myName.textContent = myUser;
@@ -117,5 +36,4 @@ else{
   myName2.setAttribute("title", myUser);
 
   Container2.setAttribute("data-inserted", "");
-  
 };
