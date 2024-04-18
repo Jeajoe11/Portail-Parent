@@ -30,7 +30,6 @@ body{
       height: 50px;
       margin-inline-start: 10px;
     }
-
 }
 .container2[data-inserted]{
   animation: fade-out 2s ease forwards;
