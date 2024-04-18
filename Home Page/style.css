@@ -25,14 +25,11 @@ body{
       height: 50px;
       margin-inline-start: 10px;
 
-      &::before{
-        content: "";
-        position: absolute;
-        width: 120px;
-        height: 30px;
-        background-color: #ffffff;
+      &[closed]{
+        display: none;
       }
     }
+
 }
 .container2[data-inserted]{
   animation: fade-out 1.5s ease forwards;
