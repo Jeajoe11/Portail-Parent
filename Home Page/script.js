@@ -4,7 +4,7 @@ const myName2 = document.getElementById("myName2");
 const Container2 = document.getElementById("Container2");
 const ExitBtn = document.getElementById("theExitBtn");
 
-ExitBtn.addEventListener('click', function() {
+ExitBtn.onclick = function() {
   // Check if the browser supports the exit() method (modern browsers)
   if (document.exitFullscreen) {
       document.exitFullscreen();
