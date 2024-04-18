@@ -18,8 +18,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: calc(var(--header-z-index) + 1)
+    z-index: calc(var(--header-z-index) + 1);
+    background-color: #fff;
+    animation: fade-out 0.5s ease;
+
+    img{
+      height: 50px;
+    }
 }
+@keyframes 
 header{
   padding-block-start: 10px;
   padding-block-end: 10px;
