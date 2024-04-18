@@ -20,7 +20,7 @@ ExitBtn.addEventListener('click', function() {
   } else if (window.close) { // Close the window/tab if exitFullscreen is not supported
       window.close();
   } else {
-      console.log("Fullscreen and window close not supported.");
+      window.alert("Fullscreen and window close not supported.");
   }
 });
 while(myUser === "" || myUser === null){
