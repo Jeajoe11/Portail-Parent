@@ -2,7 +2,6 @@ let myUser = window.prompt("Entrez votre nom");
 const myName = document.getElementById("myName");
 const myName2 = document.getElementById("myName2");
 const Container2 = document.getElementById("Container2");
-const container2Img = document.getElementById("container2Img");
 
 while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
