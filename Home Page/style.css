@@ -186,7 +186,6 @@ header{
       }
       & img{
         transition: transform 0.3s ease;
-        backface-visibility: hidden;
         transform-origin: center center;
       }
       &:hover{
