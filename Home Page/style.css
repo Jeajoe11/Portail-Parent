@@ -24,10 +24,6 @@ body{
     img{
       height: 50px;
       margin-inline-start: 10px;
-
-      &[closed]{
-        display: none;
-      }
     }
 
 }
