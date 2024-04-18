@@ -20,6 +20,8 @@ else if(myUser === "Créateur"){
 
   myName2.textContent = "Joël";
   myName2.setAttribute("title", myUser);
+
+  Container2.setAttribute("data-inserted",)
 }
 else if(myUser === "Joël" || myUser === "joël" || myUser === "Joel" || myUser === "joel"){
   myName.textContent = "Créateur";
