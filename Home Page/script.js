@@ -6,17 +6,22 @@ const exitBtn = document.querySelector('#theExitBtn');
 
 exitBtn.onclick = function() {
     // Check if the browser supports the exit() method (modern browsers)
-    if (document.exitFullscreen) {
+    if(document.exitFullscreen) {
         document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) { // Safari
+    } 
+    else if(document.webkitExitFullscreen) { // Safari
         document.webkitExitFullscreen();
-    } else if (document.mozCancelFullScreen) { // Firefox
+    } 
+    else if(document.mozCancelFullScreen) { // Firefox
         document.mozCancelFullScreen();
-    } else if (document.msExitFullscreen) { // IE/Edge
+    } 
+    else if(document.msExitFullscreen) { // IE/Edge
         document.msExitFullscreen();
-    } else if (window.close) { // Close the window/tab if exitFullscreen is not supported
+    } 
+    else if(window.close) { // Close the window/tab if exitFullscreen is not supported
         window.close();
-    } else {
+    } 
+    else{
         console.log("Fullscreen and window close not supported.");
     }
 };
