@@ -31,6 +31,8 @@ body{
 }
 .container2[data-inserted]{
   animation: fade-out 2s ease 2s forwards;
+  pointer-events: none;
+  user-select: none;
 
   & ~ .container{
     animation: fade-in 1.5s ease 1.5s;
@@ -42,10 +44,6 @@ body{
 @keyframes fade-out{
   0%{
     opacity: 1;
-  }
-  50%{
-    pointer-events: none;
-    user-select: none;
   }
   100%{
     opacity: 0;
