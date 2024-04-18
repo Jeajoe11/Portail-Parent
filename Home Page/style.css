@@ -26,8 +26,13 @@ body{
       height: 50px;
     }
 }
-@keyframes {
-  
+@keyframes fade-out{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
 header{
   padding-block-start: 10px;
