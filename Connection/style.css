@@ -31,3 +31,7 @@ form{
   flex-direction: column;
   width: 400px;
 }
+.container *, footer{
+  transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
+  animation: fade-in 0.5s ease;
+}

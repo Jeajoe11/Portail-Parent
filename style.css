@@ -41,6 +41,7 @@
     pointer-events: none;
   }
 }
+
 .wrapper{
   display: flex;
   gap: 2em;
@@ -132,4 +133,8 @@
   100%{
     scale: 1
   }
+}
+.container *, footer{
+  transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
+  animation: fade-in 0.5s ease;
 }
