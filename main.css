@@ -30,7 +30,7 @@ body{
   transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
   animation: fade-in 0.5s ease;
 }
-@keyframes fdade-in{
+@keyframes fade-in{
   0%{
     translate: 0 -10px;
     opacity: 0;
