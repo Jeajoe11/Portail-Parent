@@ -116,6 +116,7 @@ img{
   gap: 25px;
   padding-block-start: 10px;
   padding-inline-end: 25px;
+  overflow: auto;
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-end;
