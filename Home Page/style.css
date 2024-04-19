@@ -120,7 +120,7 @@ img{
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-end;
-  height: fit-content;
+  height: 100%;
 
   & button.menuItem{
     border: 0;
