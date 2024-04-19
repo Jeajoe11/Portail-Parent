@@ -110,10 +110,6 @@ img{
     font-weight: 500;
   }
 }
-.headerMenu{
-  height: 100%;
-  overflow: auto;
-}
 .headerMenu, .mainMenu, .gameMenu{
   display: flex;
   gap: 25px;
@@ -131,6 +127,10 @@ img{
       font-size: 1em;
       bottom: -22px
     }
+  }
+  .headerMenu{
+    height: 100%;
+    overflow: auto;
   }
   a.menuItem{
 
