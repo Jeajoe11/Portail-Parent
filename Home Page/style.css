@@ -42,7 +42,6 @@ body{
 .container2:not([data-inserted]) ~ .container{
   opacity: 0;
 }
-.container
 @keyframes fade-out{
   0%{
     opacity: 1;
