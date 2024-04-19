@@ -54,7 +54,6 @@ header{
   padding-block-start: 10px;
   padding-block-end: 10px;
   width: 100%;
-  overflow-y: auto;
   overflow-x: clip;
   display: flex;
   height: var(--header-height);
