@@ -114,7 +114,7 @@ img{
 .headerMenu, .mainMenu, .gameMenu{
   display: flex;
   gap: 25px;
-  margin-block-start: 10px;
+  padding-block-start: 10px;
   padding-inline-end: 25px;
   width: 100%;
   flex-wrap: wrap;
