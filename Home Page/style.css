@@ -200,7 +200,7 @@ img{
         box-shadow: 0 0 30px #fff;
 
         & p{
-          color: #ffffff;
+          text-shadow: 0 0 10 #fff;
         }
       }
       & img{
