@@ -135,7 +135,8 @@ img{
       box-shadow: 0 0 20px white;
 
       & p{
-        transform: scale(1.2)
+        transform: scale(1.2);
+        text-shadow: 0 0 10 #fff;
       }
     }
     &:active{
@@ -143,7 +144,8 @@ img{
       box-shadow: 0 0 30px white;
 
       & p{
-        transform: scale(1.4)
+        transform: scale(1.4);
+        text-shadow: 0 0 20 #fff;
       }
     }
   }
@@ -162,7 +164,7 @@ img{
     position: relative;
     margin-block-end: 10px;
     transform-origin: center center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, text-shadow 0.3s ease;
 
     &.Exit{
       background-color: #9f4553;
@@ -198,10 +200,6 @@ img{
       }
       &:active{
         box-shadow: 0 0 30px #fff;
-
-        & p{
-          text-shadow: 0 0 10 #fff;
-        }
       }
       & img{
         position: absolute;
