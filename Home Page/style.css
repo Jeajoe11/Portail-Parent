@@ -16,7 +16,7 @@ body{
 }
 .container2{
     position: sticky;
-    height: 100dévh;
+    height: 100dvh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,13 +36,9 @@ body{
 
   & ~ .container{
     animation: fade-in 1.5s ease 1.5s;
-    
   }
-
 }
-.container2:not([data-inserted]) ~ .container{
-  opacity: 0;
-}
+.container
 @keyframes fade-out{
   0%{
     opacity: 1;
