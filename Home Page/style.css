@@ -128,10 +128,6 @@ img{
       bottom: -22px
     }
   }
-  .headerMenu{
-    height: 100%;
-    overflow: auto;
-  }
   a.menuItem{
 
     &:hover{
@@ -237,6 +233,10 @@ img{
       }
     }
   }
+}
+.headerMenu{
+  height: 100%;
+  overflow: auto;
 }
 .long{
   width: 114px;
