@@ -267,7 +267,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-block-start: 5%
+  padding-block-start: 5%;
 
 }
 .black{
