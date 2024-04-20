@@ -119,6 +119,7 @@ img{
   flex-wrap: wrap;
   justify-content: flex-end;
   height: fit-content;
+  overflow: auto;
 
   & button.menuItem{
     border: 0;
@@ -236,7 +237,7 @@ img{
 }
 .headerMenu{
   height: 100%;
-  overflow: auto;
+
 }
 .long{
   width: 114px;
