@@ -213,6 +213,10 @@ img{
       user-select: none;
       pointer-events: none;
 
+      &.y-full{
+        height: 100%;
+        border-radius: 10px;
+      }
       &.full{
         width: 100%;
         height: 100%;
