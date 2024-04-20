@@ -93,7 +93,7 @@ img{
   object-fit: cover;
 }
 .Welcome{
-  text-transform: capitalize;
+  text-transform: capitalize !important;
   width: fit-content;
   display: -webkit-box;
   overflow: clip;
