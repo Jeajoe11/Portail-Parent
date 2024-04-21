@@ -98,13 +98,12 @@ h2#myName.Welcome{
 }
 .Welcome{
   text-transform: capitalize !important;
-  width: fit-content;
+  width: 100%;
   display: -webkit-box;
   overflow: clip;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-wrap:balance;
-  width: 100%;
 
   & > *{
     text-transform: capitalize !important;
