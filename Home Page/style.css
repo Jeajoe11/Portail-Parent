@@ -92,6 +92,9 @@ img{
   border-radius: 10px;
   object-fit: cover;
 }
+h2.Welcome{
+  font-size: 1.757vw;
+}
 .Welcome{
   text-transform: capitalize !important;
   width: fit-content;
@@ -103,9 +106,6 @@ img{
 
   > *{
     text-transform: capitalize !important;
-  }
-  &h2{
-    font-size: 1.757vw;
   }
   &::before{
     content: "Bienvenue";
