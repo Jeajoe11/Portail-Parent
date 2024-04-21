@@ -94,6 +94,7 @@ img{
 }
 .Welcome{
   text-transform: capitalize !important;
+  font-size: 1.757vw;
   width: fit-content;
   display: -webkit-box;
   overflow: clip;
