@@ -260,7 +260,7 @@ img{
 }
 main{
   background-color: transparent;
-  height: calc(100vh - var(--header-height));
+  height: calc(100vh - var(--header-height) - var(--top__jump-height));
   width: 75%;
   position: relative;
   display: flex;
