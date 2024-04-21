@@ -76,6 +76,7 @@ img{
   position: relative;
   width: 35%;
   user-select: none;
+  align-self: center;
 
   .logo__wrapper{
     cursor: default;
