@@ -237,7 +237,7 @@ h2#myName.Welcome{
       }
       &.exitBtn{
         background-color: #A91F1F;
-        padding: 10px;
+        padding: 0.732vw;
         margin-inline: 10px;
         font-style: italic;
       }
@@ -257,11 +257,6 @@ h2#myName.Welcome{
   img{
     width: 100%
   }
-}
-.exitBtn__two{
-  transform: rotateY(180deg);
-  transition: transform 0.3s ease;
-  backface-visibility: hidden;
 }
 main{
   background-color: transparent;
