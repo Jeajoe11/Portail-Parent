@@ -94,6 +94,10 @@
   & ul{
     padding-inline: 30px 0;
     text-align: left;
+
+    li{
+      font-size: 1.171vw;
+    }
   }
   & h2{
     color: #490D41;
