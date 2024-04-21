@@ -101,6 +101,21 @@ img{
 h2#myName.Welcome{
   font-size: 1.757vw;
 }
+h1#myName2.Welcome{
+
+  &::after{
+    content: "";
+    background-image: url("/Portail-Parent/images/gif/ZKZg.gif");
+    height: 50px;
+    width: 50px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    margin-inline-start: 15px;
+  }
+}
 .Welcome{
   text-transform: capitalize !important;
   width: 100%;
