@@ -266,7 +266,7 @@ main{
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 .mainMenu{
