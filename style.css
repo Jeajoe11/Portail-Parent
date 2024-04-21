@@ -52,7 +52,7 @@
   top: -40px;
 }
 .card{
-  height: clamp(275px, 540px, 550px);
+  height: 84.364vh;
   width: clamp(175px, 350px, 350px);
   position: relative;
   overflow: clip;
@@ -138,7 +138,3 @@
   transition: animation 0.5s ease, translate 0.5s ease, opacity 0.5s ease;
   animation: fade-in 0.5s ease;
 }
-/* .container{
-  overflow: auto;
-  height: calc(100dvh - var(--top__jump-height));
-} */
