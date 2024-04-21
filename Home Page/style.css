@@ -103,7 +103,6 @@ h2#myName.Welcome{
   overflow: clip;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  overflow-clip-margin: 5px;
   text-wrap:balance;
   width: 100%;
 
