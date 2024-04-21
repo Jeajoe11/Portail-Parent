@@ -109,6 +109,7 @@ h2#myName.Welcome{
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-wrap:balance;
+  text-align: center;
 
   & > *{
     text-transform: capitalize !important;
