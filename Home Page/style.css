@@ -77,9 +77,9 @@ img{
   width: 35%;
   user-select: none;
 
-  a{
+  .logo__wrapper{
     cursor: default;
-    height: 78%;
+    height: 100%;
   }
 }
 .logo{
