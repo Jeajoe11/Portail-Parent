@@ -94,7 +94,6 @@ img{
 }
 .Welcome{
   text-transform: capitalize !important;
-  font-size: 1.757vw;
   width: fit-content;
   display: -webkit-box;
   overflow: clip;
@@ -103,7 +102,10 @@ img{
   overflow-clip-margin: 10px;
 
   > *{
-    text-transform: capitalize;
+    text-transform: capitalize !important;
+  }
+  &:nth-last-child(1){
+    font-size: 1.757vw;
   }
   &::before{
     content: "Bienvenue";
