@@ -104,7 +104,7 @@ img{
   > *{
     text-transform: capitalize !important;
   }
-  &:nth-last-child(1){
+  &h2{
     font-size: 1.757vw;
   }
   &::before{
