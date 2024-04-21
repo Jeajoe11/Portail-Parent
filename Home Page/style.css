@@ -238,7 +238,7 @@ h2#myName.Welcome{
         }
       }
       &.big{
-        padding: 5px;
+        padding: calc(0.732vw / 2);
       }
       &.exitBtn{
         background-color: #A91F1F;
