@@ -102,7 +102,7 @@ h2.Welcome{
   overflow: clip;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  overflow-clip-margin: 10px;
+  overflow-clip-margin: 9px;
 
   > *{
     text-transform: capitalize !important;
