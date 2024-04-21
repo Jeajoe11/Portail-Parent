@@ -92,7 +92,7 @@ img{
   border-radius: 10px;
   object-fit: cover;
 }
-h2.Welcome{
+h2#myName.Welcome{
   font-size: 1.757vw;
 }
 .Welcome{
