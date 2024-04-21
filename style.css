@@ -53,7 +53,7 @@
 }
 .card{
   height: 84.364vh;
-  width: clamp(175px, 350px, 350px);
+  width: 25.622vw;
   position: relative;
   overflow: clip;
   background-color: white;
