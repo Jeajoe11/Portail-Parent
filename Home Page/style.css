@@ -100,6 +100,20 @@ img{
 }
 h2#myName.Welcome{
   font-size: 1.757vw;
+
+  &::before{
+    content: "Bienvenue";
+    margin-inline-end: 5px;
+    font-weight: 500;
+  }
+}
+h1#myName2{
+
+  &::before{
+    content: "Bienvenue";
+    margin-inline-end: 5px;
+    font-weight: 500;
+  }
 }
 .Welcome{
   text-transform: capitalize !important;
@@ -113,11 +127,6 @@ h2#myName.Welcome{
 
   & > *{
     text-transform: capitalize !important;
-  }
-  &::before{
-    content: "Bienvenue";
-    margin-inline-end: 5px;
-    font-weight: 500;
   }
 }
 .headerMenu, .mainMenu, .gameMenu{
