@@ -139,7 +139,10 @@ h1#myName2.Welcome{
 }
 @media (max-width: 746px){
   .headerMenu{
-    width: 50%
+    width: 50%;
+  }
+  a.menuItem{
+    height: 6.539vw;;
   }
 }
 .headerMenu, .mainMenu, .gameMenu{
