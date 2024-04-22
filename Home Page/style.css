@@ -372,7 +372,8 @@ main{
     width: 25%;
   }
   .Menu .menuItem{
-    height: 6.539vw;
+    height: 10.539vw;
+    width: fit-content;
 
     p{
       font-size: 1.3vw;
