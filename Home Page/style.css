@@ -293,10 +293,11 @@ label[for="headerMenu__Opener"]{
     border-radius: 200px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 50%;
+    transform: translate(0, 50%);
 
     &.rectOne{
-      
+
     }
   }
 }
