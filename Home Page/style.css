@@ -397,7 +397,13 @@ main{
     display: none;
   }
   .logo__wrapper{
-    width: 200px
+    width: 75%;
+  }
+  .logo__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .menuLogo{
     display: flex;
