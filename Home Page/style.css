@@ -314,5 +314,9 @@ main{
   }
   .Menu .menuItem{
     height: 6.539vw;
+
+    p{
+      font-size: 0.802vw;
+    }
   }
 }
