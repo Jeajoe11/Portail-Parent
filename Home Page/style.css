@@ -379,7 +379,7 @@ main{
     }
   }
   h2#myName.Welcome {
-    font-size: 2.757vw;
+    font-size: 5.757vw;
   }
   .logo__container {
     width: 45%;
@@ -413,10 +413,11 @@ main{
     justify-content: normal;
   }
   h2#myName.Welcome {
-    font-size: 4.757vw;
+    font-size: 6.757vw;
   }
   .Menu .menuItem {
-    height: 8.539vw;
+    height: 16.539vw;
+    width: fit-content;
   }
   .Menu .menuItem p {
     font-size: 1.85vw;
