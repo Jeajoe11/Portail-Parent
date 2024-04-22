@@ -396,4 +396,7 @@ main{
   body header{
     justify-content: normal;
   }
+  h2#myName.Welcome {
+    font-size: 4.757vw;
+  }
 }
