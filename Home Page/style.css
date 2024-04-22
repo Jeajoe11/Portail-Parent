@@ -317,6 +317,8 @@ label[for="headerMenu__Opener"]{
   user-select: none;
 }
 #headerMenu__Opener:checked ~ label[for="headerMenu__Opener"] .menuLogo{
+  transform: translate(0, -10px);
+
   .rectOne {
     transform: rotate(45deg) translate(0, 0);
     bottom: 0;
