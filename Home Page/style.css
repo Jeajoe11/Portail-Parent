@@ -272,8 +272,24 @@ h1#myName2.Welcome{
 }
 .headerMenu{
   height: 100%;
-
 }
+.menuLogo {
+  /* background: red; */
+  height: 50px;
+  width: 60px;
+  aspect-ratio: 6 / 5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .rect {
+    background: black;
+    height: 20%;
+    border-radius: 200px;
+}
+}
+
 .long{
   width: 8.346vw;
   height: fit-content;
