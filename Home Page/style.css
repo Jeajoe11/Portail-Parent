@@ -273,6 +273,9 @@ h1#myName2.Welcome{
 .headerMenu{
   height: 100%;
 }
+label[for="headerMenu__Opener"]{
+  cursor: pointer;
+}
 .menuLogo {
   /* background: red; */
   height: 50px;
