@@ -288,6 +288,7 @@ label[for="headerMenu__Opener"]{
   display: none;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease;
 
   .rect {
     background: black;
