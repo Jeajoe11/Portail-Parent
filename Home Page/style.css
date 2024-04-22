@@ -290,6 +290,7 @@ label[for="headerMenu__Opener"]{
   .rect {
     background: black;
     height: 20%;
+    width: 100%;
     border-radius: 200px;
     position: absolute;
     left: 0;
