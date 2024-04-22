@@ -309,13 +309,15 @@ label[for="headerMenu__Opener"]{
 }
 #headerMenu__Opener:checked ~ label[for="headerMenu__Opener"] .menuLogo{
   .rectOne {
-    transform: rotate(45deg)
+    transform: rotate(45deg) translate(0, 50%);
+    bottom: 50%;
   }
   .rectTwo {
-    transform: rotate(45deg)
+    transform: rotate(45deg)  translate(0, 50%);
+    bottom: 50%
   }
   .rectThree {
-    transform: rotate(-45deg)
+    transform: rotate(-45deg)  translate(0, 0);
   }
 }
 .long{
