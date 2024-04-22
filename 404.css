@@ -11,7 +11,7 @@
   animation: fade-in 0.5s ease;
 }
 h1{
-  font-size: clamp(50px, 9dvw, 300px);
+  font-size: clamp(35px, 9dvw, 300px);
   user-select: none;
   pointer-events: none;
   position: relative;
@@ -27,7 +27,7 @@ h1{
     position: absolute;
     left: 0;
     bottom: -40px;
-    font-size: clamp(25px, 5dvw, 150px);
+    font-size: clamp(15px, 5dvw, 150px);
     margin: auto;
     text-align: center;
     width: 100%
@@ -37,10 +37,10 @@ p a{
   font-weight: 700;
 }
 p:not([class]) {
-  font-size: clamp(10px, 1.25vw, 1.1em);
+  font-size: clamp(10px, 2.25vw, 1.1em);
 }
 p[class] {
-  font-size: clamp(15px, 2.5vw, 1.5em);
+  font-size: clamp(12.5px, 2.5vw, 1.5em);
   margin-block-start: 10px;
   font-weight: 500;
 }
