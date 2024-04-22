@@ -320,3 +320,14 @@ main{
     }
   }
 }
+@media (max-width: 425px){
+  header .headerMenu {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    user-select: none;
+  }
+  .logo__wrapper{
+    width: 200px
+  }
+}
