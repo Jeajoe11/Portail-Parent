@@ -19,12 +19,12 @@ h1{
   justify-content: center;
   align-items: center;
   margin-block-end: 21px;
+  text-transform: uppercase;
   
   &::after{
     content: "Page non disponible";
     position: absolute;
     left: 0;
-    text-transform: uppercase;
     bottom: -40px;
     font-size: clamp(50px, 5dvw, 150px);
     margin: auto;
