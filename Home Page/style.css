@@ -63,6 +63,7 @@ header{
   background-image: linear-gradient(to right, #aed4f8 0%, #c4e3ef 1%, #79b6ef 100%);
   border-block-end: 2px solid white;
   z-index: var(--header-z-index);
+  justify-content: space-between;
 }
 img{
   font-style: italic;
