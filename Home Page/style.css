@@ -296,6 +296,7 @@ label[for="headerMenu__Opener"]{
     left: 0;
     bottom: 50%;
     transform: translate(0, 50%);
+    transition: transform 0.3s ease, bottom 0.3s ease;
 
     &.rectOne{
       transform: translate(0, 100%);
