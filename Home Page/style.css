@@ -312,7 +312,7 @@ main{
   .headerMenu{
     width: 50%;
   }
-  a.menuItem{
+  .Menu .menuItem{
     height: 6.539vw;
   }
 }
