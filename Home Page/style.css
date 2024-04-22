@@ -381,8 +381,11 @@ main{
   h2#myName.Welcome {
     font-size: 2.757vw;
   }
-  .logo__container{
-    width: 69%;
+  .logo__container {
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }
 @media (max-width: 425px){
