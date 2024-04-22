@@ -291,6 +291,13 @@ label[for="headerMenu__Opener"]{
     background: black;
     height: 20%;
     border-radius: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    &.rectOne{
+      
+    }
   }
 }
 #headerMenu__Opener:checked ~ label[for="headerMenu__Opener"] .menuLogo{
