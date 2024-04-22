@@ -369,7 +369,7 @@ main{
 }
 @media (max-width: 746px) {
   .headerMenu{
-    width: 50%;
+    width: 25%;
   }
   .Menu .menuItem{
     height: 6.539vw;
@@ -382,7 +382,7 @@ main{
     font-size: 2.757vw;
   }
   .logo__container{
-    width: 50%;
+    width: 69%;
   }
 }
 @media (max-width: 425px){
