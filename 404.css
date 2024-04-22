@@ -35,3 +35,10 @@ h1{
 p a{
   font-weight: 700;
 }
+p:not([class]) {
+  font-size: 1.1em;
+}
+p[class] {
+  font-size: 1.5em;
+  font-weight: 600;
+}
