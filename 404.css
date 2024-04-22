@@ -10,7 +10,7 @@
   animation: fade-in 0.5s ease;
 }
 h1{
-  font-size: clamp(100px, 10dvw, 300px);
+  font-size: clamp(100px, 9dvw, 300px);
   user-select: none;
   pointer-events: none;
   position: relative;
