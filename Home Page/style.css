@@ -297,7 +297,12 @@ label[for="headerMenu__Opener"]{
     transform: translate(0, 50%);
 
     &.rectOne{
-
+      transform: translate(0, 100%);
+      bottom: 100%;
+    }
+    &.rectThree{
+      transform: translate(0, 0);
+      bottom: 0;
     }
   }
 }
