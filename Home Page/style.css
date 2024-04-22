@@ -304,7 +304,7 @@ main{
 .green5bad3f{
   background-color: #5bad3f !important;
 }
-@media screen (max-width: 746px) {
+@media (max-width: 746px) {
   .headerMenu{
     width: 50%;
   }
