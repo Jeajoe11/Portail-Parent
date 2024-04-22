@@ -23,6 +23,7 @@ body{
     align-items: center;
     z-index: calc(var(--header-z-index) + 1);
     background-color: #fff;
+    cursor: progress;
 
     img{
       height: 50px;
