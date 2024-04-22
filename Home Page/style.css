@@ -34,9 +34,16 @@ body{
   pointer-events: none;
   user-select: none;
 
+  & .Welcome{
+    text-transform: capitalize !important;
+  }
   & ~ .container{
     animation: fade-in 1.5s ease 1.5s;
     opacity: 1;
+
+    & .Welcome{
+      text-transform: capitalize !important;
+    }
   }
 }
 .container2:not([data-inserted]) ~ .container{
@@ -128,9 +135,6 @@ h1#myName2.Welcome{
   text-wrap:balance;
   text-align: center;
 
-  & > *{
-    text-transform: capitalize !important;
-  }
   &::before{
     content: "Bienvenue";
     margin-inline-end: 5px;
