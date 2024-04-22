@@ -37,7 +37,7 @@ p a{
   font-weight: 700;
 }
 p:not([class]) {
-  font-size: clamp(12.5px,1.25vw, 1.1em);
+  font-size: clamp(10px, 1.25vw, 1.1em);
 }
 p[class] {
   font-size: clamp(15px, 2.5vw, 1.5em);
