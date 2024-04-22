@@ -42,7 +42,7 @@ body{
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 100%;
+  height: calc(100dvh - var(--top__jump-height));
   width: 100%;
 }
 footer iframe{
