@@ -137,14 +137,6 @@ h1#myName2.Welcome{
     font-weight: 500;
   }
 }
-@media (max-width: 746px){
-  .headerMenu{
-    width: 50%;
-  }
-  a.menuItem{
-    height: 6.539vw;;
-  }
-}
 .headerMenu, .mainMenu, .gameMenu{
   display: flex;
   gap: 25px;
@@ -312,4 +304,12 @@ main{
 
 .green5bad3f{
   background-color: #5bad3f !important;
+}
+@media (max-width: 746px){
+  .headerMenu{
+    width: 50%;
+  }
+  a.menuItem{
+    height: 6.539vw;;
+  }
 }
