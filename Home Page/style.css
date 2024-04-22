@@ -388,6 +388,9 @@ main{
     position: absolute;
     left: 0;
   }
+  header{
+    justify-content: flex-end;
+  }
 }
 @media (max-width: 430px){
   header .headerMenu {
@@ -423,8 +426,5 @@ main{
   }
   .Menu .menuItem p {
     font-size: 1.85vw;
-  }
-  header{
-    justify-content: flex-end;
   }
 }
