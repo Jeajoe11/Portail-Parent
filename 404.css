@@ -40,6 +40,7 @@ p:not([class]) {
   font-size: 1.1em;
 }
 p[class] {
-  font-size: 1.5em;
+  font-size: clamp(15px, 1.5vw, 1.5em);
+  margin-block-start: 10px;
   font-weight: 500;
 }
