@@ -399,4 +399,7 @@ main{
   h2#myName.Welcome {
     font-size: 4.757vw;
   }
+  .Menu .menuItem {
+    height: 8.539vw;
+}
 }
