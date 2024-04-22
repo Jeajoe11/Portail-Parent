@@ -276,6 +276,7 @@ h1#myName2.Welcome{
 }
 label[for="headerMenu__Opener"]{
   cursor: pointer;
+  display: none;
 }
 .menuLogo {
   /* background: red; */
@@ -285,7 +286,7 @@ label[for="headerMenu__Opener"]{
   /* width: 20px; */
   aspect-ratio: 6 / 5;
   position: relative;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.3s ease;
@@ -411,7 +412,8 @@ main{
     left: 50%;
     transform: translate(-50%, 0);
   }
-  .menuLogo{
+  label[for="headerMenu__Opener"]{
+    cursor: pointer;
     display: flex;
   }
   body header{
