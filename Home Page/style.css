@@ -369,7 +369,7 @@ main{
 }
 @media (max-width: 768px) {
   .headerMenu{
-    width: 25%;
+    width: 40%;
   }
   .Menu .menuItem{
     height: 10.539vw;
