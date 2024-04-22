@@ -401,7 +401,7 @@ main{
     width: 75%;
   }
   .logo__container{
-    height: 100%;
+    height: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,7 +415,7 @@ main{
     justify-content: normal;
   }
   h2#myName.Welcome {
-    font-size: 4.757vw;
+    font-size: 4vw;
   }
   .Menu .menuItem {
     height: 16.539vw;
