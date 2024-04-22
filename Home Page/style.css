@@ -326,6 +326,7 @@ main{
     pointer-events: none;
     opacity: 0;
     user-select: none;
+    display: none;
   }
   .logo__wrapper{
     width: 200px
