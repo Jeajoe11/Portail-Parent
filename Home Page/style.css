@@ -314,10 +314,11 @@ label[for="headerMenu__Opener"]{
   }
   .rectTwo {
     transform: rotate(45deg)  translate(0, 50%);
-    bottom: 50%
+    bottom: 50%;
   }
   .rectThree {
-    transform: rotate(-45deg)  translate(0, 0);
+    transform: rotate(-45deg)  translate(0, 50%);
+    bottom: 50%;
   }
 }
 .long{
