@@ -56,7 +56,7 @@ footer{
   position: relative;
   width: 100%;
   z-index: 1;
-  bottom: calc(-1 * var(--footer-height) + var(--top__jump-height));
+  bottom: 0;
 
   *{
     color: white;
