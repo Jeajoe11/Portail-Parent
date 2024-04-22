@@ -406,6 +406,7 @@ main{
   }
   .logo__container{
     height: 95%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
