@@ -400,12 +400,12 @@ main{
     width: 40%;
   }
   .Menu .menuItem{
-    height: 10.539vw;
+    height: 7.539vw;
     width: fit-content;
 
     p{
       bottom: -35%;
-      font-size: 2.2vw;
+      font-size: 1.3vw;
     }
   }
   h2#myName.Welcome {
