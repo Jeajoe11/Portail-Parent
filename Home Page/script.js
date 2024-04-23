@@ -16,7 +16,7 @@ if(!myUser === "" || myUser === null){
 }
 else if(myUser === "Créateur"){
   myName.textContent = "Joël";
-  myName.setAttribute("title", myUser).setAttribute("capital", "");
+  myName.setAttribute("title", myUser);
   setTimeout(() => {
     myName.setAttribute("capital", "");
   }, 1);
