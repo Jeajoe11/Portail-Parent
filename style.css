@@ -53,7 +53,8 @@
 }
 .card{
   /* height: 84.364vh; */
-  height: 40.64dvw;
+  /* height: 40.64dvw; */
+  height: 100%;
   width: 25.622vw;
   position: relative;
   overflow: clip;
