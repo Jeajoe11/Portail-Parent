@@ -272,7 +272,7 @@ h1#myName2.Welcome{
   }
 }
 [capital] {
-  text-transform: capitalize;
+  text-transform: capitalize !important;
 }
 .headerMenu{
   height: 100%;
