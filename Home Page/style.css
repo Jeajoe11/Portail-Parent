@@ -317,6 +317,7 @@ label[for="headerMenu__Opener"]{
   position: absolute;
   pointer-events: none;
   user-select: none;
+  z-index: 1;
 }
 #headerMenu__Opener:checked ~ label[for="headerMenu__Opener"] .menuLogo{
   transform: translate(0, -10px);
