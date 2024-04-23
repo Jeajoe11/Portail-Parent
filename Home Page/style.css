@@ -422,6 +422,13 @@ main{
   header{
     justify-content: flex-end;
   }
+  main{
+    width: 100%;
+  }
+  .mainMenu{
+    width: 100%;
+    justify-content: flex-end;
+  }
 }
 @media (max-width: 430px){
   header .headerMenu {
@@ -461,12 +468,5 @@ main{
   }
   .Menu .menuItem p {
     font-size: 2.85vw;
-  }
-  main{
-    width: 100%;
-  }
-  .mainMenu{
-    width: 100%;
-    justify-self: flex-end
   }
 }
