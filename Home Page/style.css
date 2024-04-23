@@ -459,4 +459,8 @@ main{
   .Menu .menuItem p {
     font-size: 2.85vw;
   }
+  .mainMenu{
+    width: 100%;
+    justify-self: flex-end
+  }
 }
