@@ -275,7 +275,6 @@ h1#myName2.Welcome{
   height: 100%;
 }
 label[for="headerMenu__Opener"]{
-  cursor: pointer;
   display: none;
 }
 .menuLogo {
@@ -284,6 +283,7 @@ label[for="headerMenu__Opener"]{
   margin-block-start: 15px;
   height: 30px;
   /* width: 20px; */
+  cursor: pointer;
   aspect-ratio: 6 / 5;
   position: relative;
   display: flex;
@@ -441,7 +441,6 @@ main{
     transform: translate(-50%, 0);
   }
   label[for="headerMenu__Opener"]{
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
