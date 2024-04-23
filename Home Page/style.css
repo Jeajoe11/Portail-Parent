@@ -271,7 +271,7 @@ h1#myName2.Welcome{
     }
   }
 }
-:has([capital]) {
+[capital] {
   text-transform: capitalize;
 }
 .headerMenu{
