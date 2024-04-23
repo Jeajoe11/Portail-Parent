@@ -271,6 +271,9 @@ h1#myName2.Welcome{
     }
   }
 }
+:has([capital]) {
+  text-transform: capitalize;
+}
 .headerMenu{
   height: 100%;
 }
@@ -334,9 +337,6 @@ label[for="headerMenu__Opener"]{
     transform: rotate(-45deg)  translate(0, 0);
     bottom: 0;
   }
-}
-:has([capital]) {
-  text-transform: capitalize;
 }
 .long{
   width: 8.346vw;
