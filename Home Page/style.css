@@ -335,6 +335,9 @@ label[for="headerMenu__Opener"]{
     bottom: 0;
   }
 }
+:has([capital]) {
+  text-transform: capitalize;
+}
 .long{
   width: 8.346vw;
   height: fit-content;
