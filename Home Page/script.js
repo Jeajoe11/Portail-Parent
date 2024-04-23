@@ -13,7 +13,6 @@ while(myUser === "" || myUser === null){
 };
 if(!myUser === "" || myUser === null){
   Container2.setAttribute("data-inserted", "");
-
 }
 else if(myUser === "Créateur"){
   myName.textContent = "Joël";
