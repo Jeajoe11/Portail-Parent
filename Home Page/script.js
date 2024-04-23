@@ -31,10 +31,16 @@ else if(myUser === "Créateur"){
 }
 else{
   myName.textContent = myUser
-  myName.setAttribute("title", myUser).setAttribute("capital", "");
+  myName.setAttribute("title", myUser);
+  setTimeout(() => {
+    myName.setAttribute("capital", "");
+  }, 1);
 
   myName2.textContent = myUser
   myName2.setAttribute("title", myUser).setAttribute("capital", "");
+  setTimeout(() => {
+    myName2.setAttribute("capital", "");
+  }, 1);
 
   Container2.setAttribute("data-inserted", "");
 };
