@@ -27,7 +27,8 @@ else{
   myName.textContent = myUser
   myName.setAttribute("title", myUser).setAttribute("capital", "");
 
-  myName2.textContent = myUser.setAttribute("title", myUser).setAttribute("capital", "");
+  myName2.textContent = myUser
+  myName2.setAttribute("title", myUser).setAttribute("capital", "");
 
   Container2.setAttribute("data-inserted", "");
 };
