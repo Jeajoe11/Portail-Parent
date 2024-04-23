@@ -17,9 +17,15 @@ if(!myUser === "" || myUser === null){
 else if(myUser === "Créateur"){
   myName.textContent = "Joël";
   myName.setAttribute("title", myUser).setAttribute("capital", "");
+  setTimeout(() => {
+    myName.setAttribute("capital", "");
+  }, 1);
 
   myName2.textContent = "Joël";
-  myName2.setAttribute("title", myUser).setAttribute("capital", "");
+  myName2.setAttribute("title", myUser);
+  setTimeout(() => {
+    myName2.setAttribute("capital", "");
+  }, 1);
 
   Container2.setAttribute("data-inserted", "");
 }
