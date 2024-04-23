@@ -5,7 +5,8 @@ const Container2 = document.getElementById("Container2");
 
 while(myUser === "" || myUser === null){
   myUser = window.prompt("Entrez votre nom");
-  myName.textContent = "[ANONYME]".setAttribute("title", "Veuillez actualiser la page pour changer de nom");
+  myName.textContent = "[ANONYME]"
+  myName.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
 
   myName2.textContent = "[ANONYME]";
   myName2.setAttribute("title", "Veuillez actualiser la page pour changer de nom");
