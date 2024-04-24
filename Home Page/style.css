@@ -5,6 +5,7 @@ body{
 }
 :root{
   --header-height: 25vh;
+  --top-left-menuBtn-height: 25px;
 }
 .container{
   padding-block-start: var(--header-height);
@@ -436,7 +437,7 @@ main{
     transform: translateY(var(--header-height));
     transition: transform 0.3s ease, background 0.3s ease, opacity 0.3s ease, width 0.3s ease, height 0.3s ease, top 0.3s ease;
   }
-  #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
+  #headerMenu__Opener:checked ~ header .logo__container ~ .headerMenu{
     transform: translateY(0);
     pointer-events: visible;
     opacity: 1;
@@ -446,6 +447,10 @@ main{
     overflow: auto;
     background: linear-gradient(to right, #feffff 0%, #ddf1f9 1%, #a0d8ef 100%);
     top: 0;
+  }
+  #headerMenu__Opener:checked ~ header{
+    height: 100%;
+    width: 100%;
   }
   main {
     width: 100%;
