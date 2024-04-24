@@ -440,6 +440,9 @@ main{
   #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
     display: flex;
     transform: translateY(0);
+    pointer-events: visible;
+    opacity: 1;
+    user-select: auto;
   }
   main {
     width: 100%;
