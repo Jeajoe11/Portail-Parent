@@ -322,6 +322,8 @@ label[for="headerMenu__Opener"]{
   pointer-events: none;
   user-select: none;
   z-index: 1;
+  top: 10px;
+  left: 10px;
 }
 #headerMenu__Opener:checked ~ label[for="headerMenu__Opener"] .menuLogo{
   transform: translate(0, -10px);
