@@ -422,9 +422,6 @@ main{
   header{
     justify-content: flex-end;
   }
-  main{
-    width: 100%;
-  }
   .mainMenu{
     width: 100%;
     justify-content: flex-end;
@@ -437,6 +434,9 @@ main{
     opacity: 0;
     user-select: none;
     display: none;
+  }
+  main {
+    width: 100%;
   }
   .logo__wrapper{
     width: 75%;
