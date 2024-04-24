@@ -435,6 +435,10 @@ main{
     user-select: none;
     display: none;
   }
+  #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
+    display: flex;
+    
+  }
   main {
     width: 100%;
   }
