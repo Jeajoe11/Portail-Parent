@@ -435,10 +435,11 @@ main{
     user-select: none;
     display: none;
     transform: translateY(var(--header-height));
+    transition: transform 0.3s ease;
   }
   #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
     display: flex;
-
+    transform: translateY(0);
   }
   main {
     width: 100%;
