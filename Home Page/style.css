@@ -434,10 +434,11 @@ main{
     opacity: 0;
     user-select: none;
     display: none;
+    transform: translateY(var(--header-height));
   }
   #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
     display: flex;
-    
+
   }
   main {
     width: 100%;
