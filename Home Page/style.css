@@ -447,6 +447,7 @@ main{
     height: 100%;
     overflow: auto;
     background: linear-gradient(to right, #feffff 0%, #ddf1f9 1%, #a0d8ef 100%);
+    top: 0;
   }
   main {
     width: 100%;
