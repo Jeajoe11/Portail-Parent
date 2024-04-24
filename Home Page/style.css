@@ -433,12 +433,10 @@ main{
     pointer-events: none;
     opacity: 0;
     user-select: none;
-    display: none;
     transform: translateY(var(--header-height));
     transition: transform 0.3s ease, background 0.3s ease, opacity 0.3s ease, width 0.3s ease, height 0.3s ease, top 0.3s ease;
   }
   #headerMenu__Opener:checked ~ .logo__container ~ .headerMenu{
-    display: flex;
     transform: translateY(0);
     pointer-events: visible;
     opacity: 1;
