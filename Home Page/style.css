@@ -285,7 +285,7 @@ label[for="headerMenu__Opener"]{
   /* background: red; */
   margin-inline-start: 15px;
   margin-block-start: 15px;
-  height: 30px;
+  height: var(--top-left-menuBtn-height);
   /* width: 20px; */
   cursor: pointer;
   aspect-ratio: 6 / 5;
