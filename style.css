@@ -47,7 +47,7 @@
   display: flex;
   gap: 2em;
   flex-wrap: wrap;
-  height: clamp(330px, 700px, 990px);
+  height: auto;
   scale: 0.75;
   position: relative;
   top: -40px;
@@ -115,7 +115,7 @@
   font-weight: 800;
   text-align: center;
   width:80%;
-  font-size: clamp(15px, 1vw, 30px);
+  font-size: clamp(10px, 1vw, 30px);
   text-wrap: balance;
 }
 .lowres{
