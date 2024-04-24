@@ -2,7 +2,8 @@
 
 .top-logo{
   background-color: #79b6ef;
-  height: 100px;
+  height: 15dvh;
+  width: 15dvh;
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
