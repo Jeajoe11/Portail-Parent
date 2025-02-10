@@ -489,7 +489,7 @@ main{
     font-size: 2.85vw;
   }
 }
-[class*="secret"]{
+.secret{
   opacity: 0;
   user-select: none;
   cursor:default;
