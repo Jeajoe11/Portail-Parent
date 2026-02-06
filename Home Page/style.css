@@ -1,7 +1,7 @@
 @import url("/main.css");
 
 body{
-  position: relative;
+  position: relative
 }
 :root{
   --header-height: 25vh;
